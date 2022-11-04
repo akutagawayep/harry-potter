@@ -105,3 +105,7 @@ btns[2].addEventListener("click", () =>
 btns[3].addEventListener("click", () =>
   filteringDataByFaculties(data, "Hufflepuff")
 );
+
+btns[4].addEventListener("click", () =>
+  filteringDataByFaculties(data, "Ravenclaw")
+);
